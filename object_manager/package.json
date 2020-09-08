@@ -1,0 +1,22 @@
+{
+  "name": "frame_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.3",
+    "@types/ioredis": "^4.14.9",
+    "@types/resize-img": "^1.1.0",
+    "@types/sharp": "^0.25.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.16.0",
+    "resize-img": "^2.0.0",
+    "sharp": "^0.25.3"
+  },
+  "devDependencies": {}
+}
