@@ -187,3 +187,7 @@ All containers run on AWS Fargate, all Grabbers run on AWS Fargate Spot
 ### Why separate multiview and pulling streams? 
 
 If a stream is dead and an input into ffmpeg the multiview will die, not ideal for a monitoring solution. In this solution after 5 seconds, the last frame will be replaced with a red cloud and a cross through it. This also allows us to deduplicate resources, i.e. two multiviews which both require the same stream will only create one 'Grabber' instance rather than two
+
+## Todo
+
+Change Redis container to Elasticache
